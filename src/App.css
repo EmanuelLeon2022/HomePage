@@ -247,10 +247,18 @@
   }
 }
 @media screen and (max-width: 600px){
+  .App{
+    text-align: center;
+  }
   .manny{
     color: red;
   }
+  .main{
+    margin: auto;
+    width: 590px;
+  }
   .pain{
+    margin: auto;
     color: white;
   }
   .broken:hover{
