@@ -140,14 +140,18 @@
     }
   }
   @media screen and (max-width: 600px){
+    .megamind{
+      width: 100%;
+      margin: auto;
+    }
     .zelda{
       background-color: black;
       background-repeat: no-repeat;
       height: 325vh;
-      width: auto;
+      width: 600px;
     }
     .Form{
-      height: 80vh;
+      height: 110vh;
       width: auto;
       display: flex;
       flex-direction: column;

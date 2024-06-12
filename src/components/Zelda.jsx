@@ -19,7 +19,7 @@ function Zelda() {
 
   return (
     <div className='zelda'>
-        <Directory/>
+        <div className='megamind'><Directory/></div>
         <div className='Form'>
         <h1> &nbsp;  </h1>
         <h1> &nbsp; </h1>

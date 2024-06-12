@@ -1,7 +1,6 @@
 import React from 'react'
 import '../Me.css'
 import Directory from './Directory'
-import Carol from './Carol'
 import Footer from './Footer'
 
 function Me() {
@@ -15,7 +14,7 @@ function Me() {
       <p>&nbsp;</p>
       <div className='alpha'>
         <h3>Professional Summary</h3>
-        <p style={{fontFamily: 'cursive'}}>I am a rising software engineer with extensive training in Javascript(ES6), HTML5 & CSS3, React, and SQL. Able to utilize PostgreSQL, Git, Github, Node.js, set up firewalls, and databases. Experience in problem solving with a background in construction, and some knowledge in mechanical engineering. Solution drive candidate who is seeking to join a software engineering team within an organization. </p>
+        <p style={{fontFamily: 'cursive'}}>I am a rising software engineer with extensive training in Javascript(ES6), HTML5 & CSS3, React, and SQL. Able to utilize PostgreSQL, Git, Github, Node.js, and setup databases. Experience in problem solving with a background in construction, and some knowledge in mechanical engineering. Solution drive candidate who is seeking to join a software engineering team within an organization. </p>
       </div>
       <p>&nbsp;</p>
       <div className='skills'>
