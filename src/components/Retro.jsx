@@ -104,23 +104,23 @@ if(e.keyCode === 87){
   return (
     <div className='grade'>
       <audio src='Checker Death3.mp3'/>
-      <Directory />
+      <div className='megamind'><Directory /></div>
       <p>&nbsp;</p>
       <p>&nbsp;</p>
       <p>&nbsp;</p>
-      <h1 style={{ fontFamily: 'face' }}>Emanuel's Cooler Resume</h1>
+      <h1 className='titulo' style={{ fontFamily: 'face', color: 'black'}}>Emanuel's Cooler Resume</h1>
       <div className='steam'>
-        <img src={currentSprite} alt="Sonic the Hedgehog" style={{ height: '120px' }} />
+        <img className='erizo' src={currentSprite} alt="Sonic the Hedgehog" /*style={{ height: '120px' }}*/ />
         <div className='prof'>
-          <h1 style={{ fontFamily: 'face', color: 'white' }}>Professional Summary</h1>
+          <h1 className='titulo' style={{ fontFamily: 'face', color: 'white' }}>Professional Summary</h1>
           <p> A rising software engineer with extensive training in Javascript(ES6), HTML5 & CSS3, React, and SQL. Able to utilize PostgreSQL, Git, Github, Node.js, set up firewalls, and databases. Experience in problem solving with a background in construction, and some knowledge in mechanical engineering. Solution drive candidate who is seeking to join a software engineering team within an organization.</p>
         </div>
       </div>
       <h2>&nbsp;</h2>
       <div className='hyrule'>
-        <img src={currentSeed} alt='Link from Zelda' style={{ height: '110px' }} />
+        <img className='heroe' src={currentSeed} alt='Link from Zelda' /*style={{ height: '110px' }}*/ />
         <div className='exp'>
-          <h1 style={{ fontFamily: 'face', color: 'white' }}>Professional Experience</h1>
+          <h1 className='titulo' style={{ fontFamily: 'face', color: 'white' }}>Professional Experience</h1>
           <p>&nbsp;</p>
           <div>
             <h3 style={{ fontFamily: 'sans-serif' }}>Leones Construction - Construction Worker  - Pittsburgh, PA 06/2023 - 08/2023</h3>
@@ -139,9 +139,9 @@ if(e.keyCode === 87){
       </div>
       <p>&nbsp;</p>
       <div className='skool'>
-        <img style={{height: '100px'}} src="https://i.gifer.com/origin/01/01d0e306b2110cc78690210e92c65eae_w200.gif" alt="Mario Mario" />
+        <img className='perico' /*style={{height: '100px'}}*/ src="https://i.gifer.com/origin/01/01d0e306b2110cc78690210e92c65eae_w200.gif" alt="Mario Mario" />
         <div className='tawt'>
-          <h2 style={{ fontFamily: 'face', color: 'white' }}>Educational Background</h2>
+          <h2 className='titulo' style={{ fontFamily: 'face', color: 'white' }}>Educational Background</h2>
           <p>&nbsp;</p>
           <div>
             <h3 style={{ fontFamily: 'sans-serif' }}>Per Scholas - Software Engineering- Remote 01/2024</h3>
@@ -156,13 +156,12 @@ if(e.keyCode === 87){
           </div>
         </div>
       </div>
-      <Carol/>
+      <div className='magicman'><Carol/></div>
       <p>&nbsp;</p>
       <p>&nbsp;</p>
       <h1>Favorite Book of the Bible</h1>
       <h4>Proverbs</h4>
-      <p>Favorite Chapter: Proverbs 17</p>
-      <p>Favorite verse: 17</p>
+      <p>Favorite Verse: Luke 12:48</p>
       <p>&nbsp;</p>
       <h4 style={{fontFamily: 'face', color: 'white'}}>Current Favorite Music Piece</h4>
       <iframe style={{width: '50%',height:'10%'}} src="https://open.spotify.com/embed/track/2QuWhgE51Nb61v0EtD6NrL?utm_source=generator" width="50%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>

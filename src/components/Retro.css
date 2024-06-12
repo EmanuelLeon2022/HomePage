@@ -5,6 +5,16 @@ body{
     background-repeat: repeat-x;
     background-color: black;
 }
+.titulo:hover{
+    text-shadow: white -3px 0, red 3px 0, blue 0 3px, gold 0 -3px;
+}
+
+.erizo{
+    height: 120px;
+}
+.heroe{
+    height: 97px;
+}
 .steam{
     display: flex;
     justify-content: center;
@@ -38,3 +48,36 @@ body{
     border-radius: 5px;
     width: 50%;
 }
+@media screen and (max-width: 600px){
+    .meme{
+        width: 600px;
+    }
+    .megamind{
+        width: 100%;
+        margin: auto;
+    }
+    .erizo{
+        height: 70px;
+    }
+    .heroe{
+        height: 50px;
+    }
+    .perico{
+        height: 80px;
+    }
+    .titulo:hover{
+        text-shadow: gold -3px 0, rgb(7, 199, 55) 3px 0, rgb(0, 212, 212) 0 3px, rgb(253, 22, 22) 0 -3px;
+    }
+    .prof{
+        width: 500px;
+    }
+    .tawt{
+        width: 550px;
+    }
+    .exp{
+        width: 500px;
+    }
+    .magicman{
+        width: 300px;
+    }
+  }

@@ -248,7 +248,7 @@
 }
 @media screen and (max-width: 600px){
   .App{
-    text-align: centergit;
+    text-align: center;
   }
   .manny{
     color: red;
