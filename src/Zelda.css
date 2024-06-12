@@ -160,7 +160,7 @@
     .open{
       width: 50vh;
       height: 50vh;
-      margin: auto;
+      margin: 85px;
       display: flex;
       flex-direction: column;
       text-align: center;
